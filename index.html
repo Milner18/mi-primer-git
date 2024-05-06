@@ -4,61 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Presentación</title>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body class="body">
     <div>
-        <h1><p>Mi Presentación</p></h1>
-   
-
-        <ul>
-            <li><strong>Nombre:</strong>Milner</li>
-            <br>
-            <li><strong>Apellido:</strong>Espínola</li>
-            <br>
-            <li><strong>Edad:</strong>20</li>
-            <br>
-            <li><strong>Email:</strong>espinolamilner909@gmail.com</li>
-        </ul>
+        <h1 class="titulo">Mi Presentación</h1>
         
+        <section>
+            <img src="img/1000045524.png" alt="" width= "150px">
+        </section>
+        
+        <div class="nav-bg">
+        <h3>Datos personales</h3>
+        <ul class="navegacion-principal">
+            <li><strong>Nombre: </strong>Milner</li>
+            <br>
+            <li><strong>Apellido: </strong>Espínola</li>
+            <br>
+            <li><strong>Edad: </strong>20</li>
+            <br>
+            <li><strong>Email: </strong>espinolamilner909@gmail.com</li>
+        </ul>
         <h3>Un poco sobre mi...</h3>
     
-          <p>Me llamo Milner, tengo 20 años y actualmente vivo en Buenos Aires.Comencé a
-            interesarme de la programación desde hace 2 años cuando aún estaba en la 
+          <p>Me llamo Milner, tengo 20 años y actualmente vivo en Buenos Aires. Comencé a
+            interesarme de la programación desde hace 2 años, cuando aún estaba en la 
             secundaria y estaba buscando una orientación. Después de practicar en VSC e investigar sobre la carrera a 
             fondo me convenció que es a lo que quiero dedicar mi tiempo después de terminar el colegio</p> 
     </div>
-    <div>
-        <form action="">
+    <div">
+        <form class="formulario">
             <fieldset>
-                <legend>Formulario</legend>
-                 <br>
-                <label for="">Nombre</label>
-                <input type="text" id="">
+                <legend class="">Formulario</legend>
+                 
+                <label class="color-a">Nombre</label>
+                <input type="text" placeholder="Nombre">
+                
+                <label class="color-a">Apellido</label>
+                <input type="text" placeholder="Apellido">
+                
+                <label class="color-a">Email</label>
+                <input type="text" placeholder="Email">
+    
+                <label class="color-a">Número</label>
+                <input type="number" placeholder="Número">
                 <br>
-                <label for="">Apellido</label>
-                <input type="text">
                 <br>
-                <label for="">Email</label>
-                <input type="text">
+                <textarea name="" id="color-a" cols="20" rows="5" placeholder="Escribe aquí tu consulta :)"></textarea>
                 <br>
-                <label for="">Número</label>
-                <input type="number">
-                <br>
-                <textarea name="" id="" cols="20" rows="5">Escribe aquí tu consulta :)</textarea>
-                <br>
-                <input type="submit">
-                <br>
-                <label for="">
-                Acepto términos y condiciones</label>
-                <br>
-                <input type="checkbox">
+                <label class="color-a">
+                    Acepto términos y condiciones</label>
+                    <br>
+                    <input type="checkbox">
+                    <br>
+                <input type="submit" class="color-a">
+                
+                
             </fieldset>
         </form>
     </div>
-
-    <footer>
-        <p>Todos los derechos reservados por Milner Espínola</p>
+     <br>
+    <footer class="footer">
+        Todos los derechos reservados por Milner Espínola
     </footer>  
 </body>
 </html>

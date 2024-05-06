@@ -1,3 +1,42 @@
-div {
-    font-style: italic;
+:root {
+    --naranja: #F14905;
+    --celeste: #079B97;
+    --negro: #000000;
+    --celeste-oscuro: #1F7A5D;
+    --marron: #800000;
+
+
 }
+
+.body {
+    background-color: var(--marron);
+    font-size: 16px;
+    font-family: "Krub", sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+.nav-bg {
+    background-color: var(--naranja);
+}
+
+.navegacion-principal {
+color: var(--negro);
+text-decoration: var(--celeste-oscuro);
+}
+
+.formulario {
+    text-align: center;
+    background-color: var(--negro);
+    
+}
+.color-a {
+    color: var(--naranja);
+}
+.footer {
+    color: var(--naranja);
+}
+
